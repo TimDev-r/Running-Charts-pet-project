@@ -9,8 +9,6 @@ one_row = db.iloc[0]
 one_row_ascending = one_row.sort_values()
 characters = db.columns
 
-plt.scatter(X[:,-1], y, c=y)
-
 num = 3
 fig, axs = plt.subplots(nrows=1, ncols=num, figsize=(10, 5), tight_layout=True)
 for i, ax in enumerate(axs):
